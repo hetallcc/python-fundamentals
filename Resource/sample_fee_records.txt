@@ -1,0 +1,4 @@
+late_payment,exempt,amount
+True,False,500.00
+False,False,200.00
+True,True,300.00

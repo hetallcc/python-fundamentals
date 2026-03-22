@@ -1,371 +1,207 @@
-2026-03-11 20:00:54,953 - core - ERROR - n must be greater than 0
-2026-03-11 20:00:54,956 - core - ERROR - Requested fee records not available
-2026-03-11 20:09:20,249 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-11 20:09:20,249 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:09:20,250 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-11 20:09:20,250 - core - ERROR - n must be greater than 0
-2026-03-11 20:09:20,252 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-11 20:09:20,252 - core - ERROR - Requested fee records not available
-2026-03-11 20:09:20,253 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:09:20,253 - core - ERROR - Requested fee records not available
-2026-03-11 20:09:20,254 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-11 20:09:20,254 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:09:34,253 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-11 20:09:34,253 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:09:34,254 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-11 20:09:34,254 - core - ERROR - n must be greater than 0
-2026-03-11 20:09:34,256 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-11 20:09:34,257 - core - ERROR - Requested fee records not available
-2026-03-11 20:09:34,257 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:09:34,258 - core - ERROR - Requested fee records not available
-2026-03-11 20:09:34,259 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-11 20:09:34,259 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:15:13,175 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:15:13,177 - core - ERROR - n must be greater than 0
-2026-03-11 20:15:13,179 - core - ERROR - Requested fee records not available
-2026-03-11 20:15:13,180 - core - ERROR - Requested fee records not available
-2026-03-11 20:15:13,180 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:16:05,414 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-11 20:16:05,414 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:16:05,415 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-11 20:16:05,415 - core - ERROR - n must be greater than 0
-2026-03-11 20:16:05,416 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-11 20:16:05,417 - core - ERROR - Requested fee records not available
-2026-03-11 20:16:05,417 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:16:05,417 - core - ERROR - Requested fee records not available
-2026-03-11 20:16:05,418 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-11 20:16:05,418 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:16:30,971 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-11 20:16:30,972 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:16:30,972 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-11 20:16:30,973 - core - ERROR - n must be greater than 0
-2026-03-11 20:16:30,974 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-11 20:16:30,975 - core - ERROR - Requested fee records not available
-2026-03-11 20:16:30,975 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:16:30,975 - core - ERROR - Requested fee records not available
-2026-03-11 20:16:30,976 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-11 20:16:30,976 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:17:33,333 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-11 20:17:33,333 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:17:33,334 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-11 20:17:33,334 - core - ERROR - n must be greater than 0
-2026-03-11 20:17:33,335 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-11 20:17:33,335 - core - ERROR - Requested fee records not available
-2026-03-11 20:17:33,336 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:17:33,336 - core - ERROR - Requested fee records not available
-2026-03-11 20:17:33,337 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-11 20:17:33,337 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:23:04,699 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-11 20:23:04,700 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:23:04,701 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-11 20:23:04,701 - core - ERROR - n must be greater than 0
-2026-03-11 20:23:04,703 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-11 20:23:04,703 - core - ERROR - Requested fee records not available
-2026-03-11 20:23:04,703 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:23:04,704 - core - ERROR - Requested fee records not available
-2026-03-11 20:23:04,704 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-11 20:23:04,704 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:29:29,215 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-11 20:29:29,216 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:29:29,217 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-11 20:29:29,217 - core - ERROR - n must be greater than 0
-2026-03-11 20:29:29,217 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-11 20:29:29,218 - core - ERROR - Requested fee records not available
-2026-03-11 20:29:29,218 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:29:29,219 - core - ERROR - Requested fee records not available
-2026-03-11 20:29:29,219 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-11 20:29:29,220 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:29:29,222 - core - INFO - get_middle_n_records called with n=2 and fee_records with length 5
-2026-03-11 20:29:29,222 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-11 20:29:29,223 - core - INFO - get_middle_n_records called with n=0 and fee_records with length 5
-2026-03-11 20:29:29,223 - core - ERROR - n must be greater than 0
-2026-03-11 20:29:29,224 - core - INFO - get_middle_n_records called with n=5 and fee_records with length 5
-2026-03-11 20:29:29,224 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=100), FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300), FeeRecord(late_payment=False, exempt=False, amount=400), FeeRecord(late_payment=True, exempt=False, amount=500)]
-2026-03-11 20:29:29,225 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:29:29,225 - core - ERROR - Requested fee records not available
-2026-03-11 20:29:29,226 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 5
-2026-03-11 20:29:29,226 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-11 20:29:56,140 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-11 20:29:56,141 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:29:56,141 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-11 20:29:56,142 - core - ERROR - n must be greater than 0
-2026-03-11 20:29:56,142 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-11 20:29:56,144 - core - ERROR - Requested fee records not available
-2026-03-11 20:29:56,145 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:29:56,145 - core - ERROR - Requested fee records not available
-2026-03-11 20:29:56,146 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-11 20:29:56,146 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:29:56,149 - core - INFO - get_middle_n_records called with n=2 and fee_records with length 5
-2026-03-11 20:29:56,149 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-11 20:29:56,150 - core - INFO - get_middle_n_records called with n=0 and fee_records with length 5
-2026-03-11 20:29:56,150 - core - ERROR - n must be greater than 0
-2026-03-11 20:29:56,151 - core - INFO - get_middle_n_records called with n=5 and fee_records with length 5
-2026-03-11 20:29:56,151 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=100), FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300), FeeRecord(late_payment=False, exempt=False, amount=400), FeeRecord(late_payment=True, exempt=False, amount=500)]
-2026-03-11 20:29:56,151 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:29:56,151 - core - ERROR - Requested fee records not available
-2026-03-11 20:29:56,152 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 5
-2026-03-11 20:29:56,152 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-11 20:30:31,684 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-11 20:30:31,684 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:30:31,686 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-11 20:30:31,686 - core - ERROR - n must be greater than 0
-2026-03-11 20:30:31,688 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-11 20:30:31,688 - core - ERROR - Requested fee records not available
-2026-03-11 20:30:31,689 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:30:31,689 - core - ERROR - Requested fee records not available
-2026-03-11 20:30:31,690 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-11 20:30:31,690 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:30:31,692 - core - INFO - get_middle_n_records called with n=2 and fee_records with length 5
-2026-03-11 20:30:31,692 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-11 20:30:31,693 - core - INFO - get_middle_n_records called with n=0 and fee_records with length 5
-2026-03-11 20:30:31,693 - core - ERROR - n must be greater than 0
-2026-03-11 20:30:31,693 - core - INFO - get_middle_n_records called with n=5 and fee_records with length 5
-2026-03-11 20:30:31,694 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=100), FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300), FeeRecord(late_payment=False, exempt=False, amount=400), FeeRecord(late_payment=True, exempt=False, amount=500)]
-2026-03-11 20:30:31,694 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:30:31,694 - core - ERROR - Requested fee records not available
-2026-03-11 20:30:31,695 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 5
-2026-03-11 20:30:31,695 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-11 20:43:21,160 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-11 20:43:21,160 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:43:21,160 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-11 20:43:21,160 - core - ERROR - n must be greater than 0
-2026-03-11 20:43:21,161 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-11 20:43:21,161 - core - ERROR - Requested fee records not available
-2026-03-11 20:43:21,163 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:43:21,163 - core - ERROR - Requested fee records not available
-2026-03-11 20:43:21,163 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-11 20:43:21,164 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:43:21,165 - core - INFO - get_middle_n_records called with n=2 and fee_records with length 5
-2026-03-11 20:43:21,165 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-11 20:43:21,166 - core - INFO - get_middle_n_records called with n=0 and fee_records with length 5
-2026-03-11 20:43:21,166 - core - ERROR - n must be greater than 0
-2026-03-11 20:43:21,167 - core - INFO - get_middle_n_records called with n=5 and fee_records with length 5
-2026-03-11 20:43:21,167 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=100), FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300), FeeRecord(late_payment=False, exempt=False, amount=400), FeeRecord(late_payment=True, exempt=False, amount=500)]
-2026-03-11 20:43:21,168 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:43:21,168 - core - ERROR - Requested fee records not available
-2026-03-11 20:43:21,169 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 5
-2026-03-11 20:43:21,169 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-11 20:49:29,412 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-11 20:49:29,413 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:49:29,413 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-11 20:49:29,414 - core - ERROR - n must be greater than 0
-2026-03-11 20:49:29,415 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-11 20:49:29,415 - core - ERROR - Requested fee records not available
-2026-03-11 20:49:29,416 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:49:29,416 - core - ERROR - Requested fee records not available
-2026-03-11 20:49:29,417 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-11 20:49:29,417 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:49:29,420 - core - INFO - get_middle_n_records called with n=2 and fee_records with length 5
-2026-03-11 20:49:29,420 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-11 20:49:29,420 - core - INFO - get_middle_n_records called with n=0 and fee_records with length 5
-2026-03-11 20:49:29,420 - core - ERROR - n must be greater than 0
-2026-03-11 20:49:29,421 - core - INFO - get_middle_n_records called with n=5 and fee_records with length 5
-2026-03-11 20:49:29,421 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=100), FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300), FeeRecord(late_payment=False, exempt=False, amount=400), FeeRecord(late_payment=True, exempt=False, amount=500)]
-2026-03-11 20:49:29,422 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:49:29,422 - core - ERROR - Requested fee records not available
-2026-03-11 20:49:29,423 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 5
-2026-03-11 20:49:29,424 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-11 20:49:58,892 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-11 20:49:58,892 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:49:58,893 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-11 20:49:58,893 - core - ERROR - n must be greater than 0
-2026-03-11 20:49:58,896 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-11 20:49:58,896 - core - ERROR - Requested fee records not available
-2026-03-11 20:49:58,897 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:49:58,897 - core - ERROR - Requested fee records not available
-2026-03-11 20:49:58,898 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-11 20:49:58,898 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-11 20:49:58,900 - core - INFO - get_middle_n_records called with n=2 and fee_records with length 5
-2026-03-11 20:49:58,900 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-11 20:49:58,901 - core - INFO - get_middle_n_records called with n=0 and fee_records with length 5
-2026-03-11 20:49:58,901 - core - ERROR - n must be greater than 0
-2026-03-11 20:49:58,902 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 0
-2026-03-11 20:49:58,902 - core - ERROR - Requested fee records not available
-2026-03-11 20:49:58,903 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 5
-2026-03-11 20:49:58,903 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 11:23:49,861 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-17 11:23:49,861 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 11:23:49,862 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-17 11:23:49,862 - core - ERROR - n must be greater than 0
-2026-03-17 11:23:49,864 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-17 11:23:49,864 - core - ERROR - Requested fee records not available
-2026-03-17 11:23:49,864 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-17 11:23:49,865 - core - ERROR - Requested fee records not available
-2026-03-17 11:23:49,865 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-17 11:23:49,865 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 11:23:49,867 - core - INFO - get_middle_n_records called with n=2 and fee_records with length 5
-2026-03-17 11:23:49,867 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 11:23:49,868 - core - INFO - get_middle_n_records called with n=0 and fee_records with length 5
-2026-03-17 11:23:49,868 - core - ERROR - n must be greater than 0
-2026-03-17 11:23:49,868 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 0
-2026-03-17 11:23:49,869 - core - ERROR - Requested fee records not available
-2026-03-17 11:23:49,869 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 5
-2026-03-17 11:23:49,869 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 11:23:49,882 - core - ERROR - File not found: non_existent_file.csv
-2026-03-17 11:26:36,052 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-17 11:26:36,052 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 11:26:36,052 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-17 11:26:36,053 - core - ERROR - n must be greater than 0
-2026-03-17 11:26:36,054 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-17 11:26:36,054 - core - ERROR - Requested fee records not available
-2026-03-17 11:26:36,055 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-17 11:26:36,055 - core - ERROR - Requested fee records not available
-2026-03-17 11:26:36,056 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-17 11:26:36,056 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 11:26:36,057 - core - INFO - get_middle_n_records called with n=2 and fee_records with length 5
-2026-03-17 11:26:36,057 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 11:26:36,058 - core - INFO - get_middle_n_records called with n=0 and fee_records with length 5
-2026-03-17 11:26:36,058 - core - ERROR - n must be greater than 0
-2026-03-17 11:26:36,059 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 0
-2026-03-17 11:26:36,059 - core - ERROR - Requested fee records not available
-2026-03-17 11:26:36,060 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 5
-2026-03-17 11:26:36,060 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 11:26:36,069 - core - ERROR - File not found: non_existent_file.csv
-2026-03-17 11:31:51,922 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-17 11:31:51,922 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 11:31:51,923 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-17 11:31:51,923 - core - ERROR - n must be greater than 0
-2026-03-17 11:31:51,925 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-17 11:31:51,925 - core - ERROR - Requested fee records not available
-2026-03-17 11:31:51,925 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-17 11:31:51,925 - core - ERROR - Requested fee records not available
-2026-03-17 11:31:51,926 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-17 11:31:51,926 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 11:31:51,928 - core - INFO - get_middle_n_records called with n=2 and fee_records with length 5
-2026-03-17 11:31:51,928 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 11:31:51,929 - core - INFO - get_middle_n_records called with n=0 and fee_records with length 5
-2026-03-17 11:31:51,929 - core - ERROR - n must be greater than 0
-2026-03-17 11:31:51,929 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 0
-2026-03-17 11:31:51,929 - core - ERROR - Requested fee records not available
-2026-03-17 11:31:51,930 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 5
-2026-03-17 11:31:51,930 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 11:31:51,938 - core - ERROR - File not found: non_existent_file.csv
-2026-03-17 11:31:58,822 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-17 11:31:58,822 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 11:31:58,822 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-17 11:31:58,822 - core - ERROR - n must be greater than 0
-2026-03-17 11:31:58,825 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-17 11:31:58,825 - core - ERROR - Requested fee records not available
-2026-03-17 11:31:58,826 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-17 11:31:58,826 - core - ERROR - Requested fee records not available
-2026-03-17 11:31:58,826 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-17 11:31:58,826 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 11:31:58,828 - core - INFO - get_middle_n_records called with n=2 and fee_records with length 5
-2026-03-17 11:31:58,828 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 11:31:58,829 - core - INFO - get_middle_n_records called with n=0 and fee_records with length 5
-2026-03-17 11:31:58,829 - core - ERROR - n must be greater than 0
-2026-03-17 11:31:58,830 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 0
-2026-03-17 11:31:58,830 - core - ERROR - Requested fee records not available
-2026-03-17 11:31:58,831 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 5
-2026-03-17 11:31:58,831 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 11:31:58,840 - core - ERROR - File not found: non_existent_file.csv
-2026-03-17 11:33:03,498 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-17 11:33:03,499 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 11:33:03,499 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-17 11:33:03,500 - core - ERROR - n must be greater than 0
-2026-03-17 11:33:03,501 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-17 11:33:03,501 - core - ERROR - Requested fee records not available
-2026-03-17 11:33:03,501 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-17 11:33:03,502 - core - ERROR - Requested fee records not available
-2026-03-17 11:33:03,502 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-17 11:33:03,502 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 11:33:03,503 - core - INFO - get_middle_n_records called with n=2 and fee_records with length 5
-2026-03-17 11:33:03,503 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 11:33:03,504 - core - INFO - get_middle_n_records called with n=0 and fee_records with length 5
-2026-03-17 11:33:03,505 - core - ERROR - n must be greater than 0
-2026-03-17 11:33:03,505 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 0
-2026-03-17 11:33:03,505 - core - ERROR - Requested fee records not available
-2026-03-17 11:33:03,506 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 5
-2026-03-17 11:33:03,506 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 11:33:03,517 - core - ERROR - File not found: non_existent_file.csv
-2026-03-17 11:34:29,435 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-17 11:34:29,435 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 11:34:29,436 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-17 11:34:29,436 - core - ERROR - n must be greater than 0
-2026-03-17 11:34:29,437 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-17 11:34:29,437 - core - ERROR - Requested fee records not available
-2026-03-17 11:34:29,438 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-17 11:34:29,438 - core - ERROR - Requested fee records not available
-2026-03-17 11:34:29,439 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-17 11:34:29,439 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 11:34:29,440 - core - INFO - get_middle_n_records called with n=2 and fee_records with length 5
-2026-03-17 11:34:29,441 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 11:34:29,441 - core - INFO - get_middle_n_records called with n=0 and fee_records with length 5
-2026-03-17 11:34:29,442 - core - ERROR - n must be greater than 0
-2026-03-17 11:34:29,442 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 0
-2026-03-17 11:34:29,443 - core - ERROR - Requested fee records not available
-2026-03-17 11:34:29,443 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 5
-2026-03-17 11:34:29,443 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 11:34:29,453 - core - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=False, amount=500.0)
-2026-03-17 11:34:29,453 - core - INFO - Successfully loaded record: FeeRecord(late_payment=False, exempt=False, amount=200.0)
-2026-03-17 11:34:29,454 - core - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=True, amount=300.0)
-2026-03-17 11:34:29,455 - core - ERROR - File not found: non_existent_file.csv
-2026-03-17 13:52:03,119 - core - INFO - Analysis result: {'is_active': True, 'payment_status': 'active', 'discount_applicable': False, 'late_payments_count': 2, 'exempt_count': 1, 'total_amount': 118, 'total_records': 3}
-2026-03-17 13:52:03,121 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-17 13:52:03,121 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 13:52:03,122 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-17 13:52:03,122 - core - ERROR - n must be greater than 0
-2026-03-17 13:52:03,124 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-17 13:52:03,124 - core - ERROR - Requested fee records not available
-2026-03-17 13:52:03,125 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-17 13:52:03,125 - core - ERROR - Requested fee records not available
-2026-03-17 13:52:03,126 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-17 13:52:03,126 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 13:52:03,128 - core - INFO - get_middle_n_records called with n=2 and fee_records with length 5
-2026-03-17 13:52:03,128 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 13:52:03,129 - core - INFO - get_middle_n_records called with n=0 and fee_records with length 5
-2026-03-17 13:52:03,129 - core - ERROR - n must be greater than 0
-2026-03-17 13:52:03,129 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 0
-2026-03-17 13:52:03,130 - core - ERROR - Requested fee records not available
-2026-03-17 13:52:03,130 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 5
-2026-03-17 13:52:03,130 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 13:52:03,138 - core - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=False, amount=500.0)
-2026-03-17 13:52:03,139 - core - INFO - Successfully loaded record: FeeRecord(late_payment=False, exempt=False, amount=200.0)
-2026-03-17 13:52:03,139 - core - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=True, amount=300.0)
-2026-03-17 13:52:03,140 - core - ERROR - File not found: non_existent_file.csv
-2026-03-17 14:20:11,513 - core - INFO - Analysis result: {'is_active': True, 'payment_status': 'active', 'discount_applicable': False, 'late_payments_count': 2, 'exempt_count': 1, 'total_amount': 118, 'total_records': 3}
-2026-03-17 14:20:11,515 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-17 14:20:11,515 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 14:20:11,516 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-17 14:20:11,516 - core - ERROR - n must be greater than 0
-2026-03-17 14:20:11,517 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-17 14:20:11,517 - core - ERROR - Requested fee records not available
-2026-03-17 14:20:11,518 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-17 14:20:11,518 - core - ERROR - Requested fee records not available
-2026-03-17 14:20:11,518 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-17 14:20:11,518 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 14:20:11,520 - core - INFO - get_middle_n_records called with n=2 and fee_records with length 5
-2026-03-17 14:20:11,520 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 14:20:11,520 - core - INFO - get_middle_n_records called with n=0 and fee_records with length 5
-2026-03-17 14:20:11,521 - core - ERROR - n must be greater than 0
-2026-03-17 14:20:11,521 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 0
-2026-03-17 14:20:11,521 - core - ERROR - Requested fee records not available
-2026-03-17 14:20:11,522 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 5
-2026-03-17 14:20:11,522 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 14:20:11,530 - core - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=False, amount=500.0)
-2026-03-17 14:20:11,531 - core - INFO - Successfully loaded record: FeeRecord(late_payment=False, exempt=False, amount=200.0)
-2026-03-17 14:20:11,531 - core - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=True, amount=300.0)
-2026-03-17 14:20:11,531 - core - ERROR - File not found: non_existent_file.csv
-2026-03-17 14:33:14,660 - core - INFO - Analysis result: {'is_active': True, 'payment_status': 'active', 'discount_applicable': False, 'late_payments_count': 2, 'exempt_count': 1, 'total_amount': 118, 'total_records': 3}
-2026-03-17 14:33:14,663 - core - INFO - get_last_n_records called with n=2 and fee_records with length 3
-2026-03-17 14:33:14,663 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 14:33:14,663 - core - INFO - get_last_n_records called with n=0 and fee_records with length 3
-2026-03-17 14:33:14,664 - core - ERROR - n must be greater than 0
-2026-03-17 14:33:14,665 - core - INFO - get_last_n_records called with n=5 and fee_records with length 3
-2026-03-17 14:33:14,665 - core - ERROR - Requested fee records not available
-2026-03-17 14:33:14,666 - core - INFO - get_last_n_records called with n=1 and fee_records with length 0
-2026-03-17 14:33:14,666 - core - ERROR - Requested fee records not available
-2026-03-17 14:33:14,667 - core - INFO - get_last_n_records called with n=1 and fee_records with length 3
-2026-03-17 14:33:14,667 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
-2026-03-17 14:33:14,670 - core - INFO - get_middle_n_records called with n=2 and fee_records with length 5
-2026-03-17 14:33:14,670 - core - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 14:33:14,670 - core - INFO - get_middle_n_records called with n=0 and fee_records with length 5
-2026-03-17 14:33:14,671 - core - ERROR - n must be greater than 0
-2026-03-17 14:33:14,671 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 0
-2026-03-17 14:33:14,671 - core - ERROR - Requested fee records not available
-2026-03-17 14:33:14,672 - core - INFO - get_middle_n_records called with n=1 and fee_records with length 5
-2026-03-17 14:33:14,672 - core - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
-2026-03-17 14:33:14,681 - core - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=False, amount=500.0)
-2026-03-17 14:33:14,681 - core - INFO - Successfully loaded record: FeeRecord(late_payment=False, exempt=False, amount=200.0)
-2026-03-17 14:33:14,682 - core - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=True, amount=300.0)
-2026-03-17 14:33:14,683 - core - ERROR - File not found: non_existent_file.csv
+2026-03-20 14:06:33,908 - __main__ - INFO - Analysis result: {'is_active': True, 'payment_status': 'active', 'discount_applicable': False, 'late_payments_count': 2, 'exempt_count': 1, 'total_amount': 118, 'total_records': 3}
+2026-03-20 14:06:33,913 - __main__ - INFO - get_last_n_records called with n=2 and fee_records with length 3
+2026-03-20 14:06:33,913 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:06:33,915 - __main__ - INFO - get_last_n_records called with n=0 and fee_records with length 3
+2026-03-20 14:06:33,916 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:06:33,920 - __main__ - INFO - get_last_n_records called with n=5 and fee_records with length 3
+2026-03-20 14:06:33,920 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:06:33,922 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:06:33,922 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:06:33,924 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 3
+2026-03-20 14:06:33,924 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:06:33,926 - __main__ - INFO - get_middle_n_records called with n=2 and fee_records with length 5
+2026-03-20 14:06:33,926 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:06:33,927 - __main__ - INFO - get_middle_n_records called with n=0 and fee_records with length 5
+2026-03-20 14:06:33,927 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:06:33,929 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:06:33,929 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:06:33,930 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 5
+2026-03-20 14:06:33,931 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:06:33,963 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=False, amount=500.0)
+2026-03-20 14:06:33,963 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=False, exempt=False, amount=200.0)
+2026-03-20 14:06:33,963 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=True, amount=300.0)
+2026-03-20 14:06:33,965 - __main__ - ERROR - File not found: non_existent_file.csv
+2026-03-20 14:06:50,925 - __main__ - INFO - Analysis result: {'is_active': True, 'payment_status': 'active', 'discount_applicable': False, 'late_payments_count': 2, 'exempt_count': 1, 'total_amount': 118, 'total_records': 3}
+2026-03-20 14:06:50,928 - __main__ - INFO - get_last_n_records called with n=2 and fee_records with length 3
+2026-03-20 14:06:50,928 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:06:50,929 - __main__ - INFO - get_last_n_records called with n=0 and fee_records with length 3
+2026-03-20 14:06:50,929 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:06:50,932 - __main__ - INFO - get_last_n_records called with n=5 and fee_records with length 3
+2026-03-20 14:06:50,933 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:06:50,934 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:06:50,935 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:06:50,936 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 3
+2026-03-20 14:06:50,936 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:06:50,938 - __main__ - INFO - get_middle_n_records called with n=2 and fee_records with length 5
+2026-03-20 14:06:50,938 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:06:50,939 - __main__ - INFO - get_middle_n_records called with n=0 and fee_records with length 5
+2026-03-20 14:06:50,939 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:06:50,940 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:06:50,940 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:06:50,941 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 5
+2026-03-20 14:06:50,942 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:06:50,961 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=False, amount=500.0)
+2026-03-20 14:06:50,961 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=False, exempt=False, amount=200.0)
+2026-03-20 14:06:50,961 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=True, amount=300.0)
+2026-03-20 14:06:50,963 - __main__ - ERROR - File not found: non_existent_file.csv
+2026-03-20 14:07:11,452 - __main__ - INFO - Analysis result: {'is_active': True, 'payment_status': 'active', 'discount_applicable': False, 'late_payments_count': 2, 'exempt_count': 1, 'total_amount': 118, 'total_records': 3}
+2026-03-20 14:07:11,457 - __main__ - INFO - get_last_n_records called with n=2 and fee_records with length 3
+2026-03-20 14:07:11,457 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:07:11,459 - __main__ - INFO - get_last_n_records called with n=0 and fee_records with length 3
+2026-03-20 14:07:11,460 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:07:11,463 - __main__ - INFO - get_last_n_records called with n=5 and fee_records with length 3
+2026-03-20 14:07:11,463 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:07:11,465 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:07:11,466 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:07:11,468 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 3
+2026-03-20 14:07:11,468 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:07:11,470 - __main__ - INFO - get_middle_n_records called with n=2 and fee_records with length 5
+2026-03-20 14:07:11,470 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:07:11,471 - __main__ - INFO - get_middle_n_records called with n=0 and fee_records with length 5
+2026-03-20 14:07:11,472 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:07:11,473 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:07:11,473 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:07:11,474 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 5
+2026-03-20 14:07:11,475 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:07:11,492 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=False, amount=500.0)
+2026-03-20 14:07:11,493 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=False, exempt=False, amount=200.0)
+2026-03-20 14:07:11,493 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=True, amount=300.0)
+2026-03-20 14:07:11,496 - __main__ - ERROR - File not found: non_existent_file.csv
+2026-03-20 14:09:01,459 - __main__ - INFO - Analysis result: {'is_active': True, 'payment_status': 'active', 'discount_applicable': False, 'late_payments_count': 2, 'exempt_count': 1, 'total_amount': 118, 'total_records': 3}
+2026-03-20 14:09:01,465 - __main__ - INFO - get_last_n_records called with n=2 and fee_records with length 3
+2026-03-20 14:09:01,465 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:09:01,468 - __main__ - INFO - get_last_n_records called with n=0 and fee_records with length 3
+2026-03-20 14:09:01,468 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:09:01,472 - __main__ - INFO - get_last_n_records called with n=5 and fee_records with length 3
+2026-03-20 14:09:01,472 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:09:01,475 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:09:01,475 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:09:01,477 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 3
+2026-03-20 14:09:01,478 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:09:01,481 - __main__ - INFO - get_middle_n_records called with n=2 and fee_records with length 5
+2026-03-20 14:09:01,482 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:09:01,483 - __main__ - INFO - get_middle_n_records called with n=0 and fee_records with length 5
+2026-03-20 14:09:01,483 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:09:01,485 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:09:01,485 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:09:01,486 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 5
+2026-03-20 14:09:01,486 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:09:01,503 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=False, amount=500.0)
+2026-03-20 14:09:01,503 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=False, exempt=False, amount=200.0)
+2026-03-20 14:09:01,504 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=True, amount=300.0)
+2026-03-20 14:09:01,505 - __main__ - ERROR - File not found: non_existent_file.csv
+2026-03-20 14:09:06,478 - __main__ - INFO - Analysis result: {'is_active': True, 'payment_status': 'active', 'discount_applicable': False, 'late_payments_count': 2, 'exempt_count': 1, 'total_amount': 118, 'total_records': 3}
+2026-03-20 14:09:06,482 - __main__ - INFO - get_last_n_records called with n=2 and fee_records with length 3
+2026-03-20 14:09:06,482 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:09:06,484 - __main__ - INFO - get_last_n_records called with n=0 and fee_records with length 3
+2026-03-20 14:09:06,484 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:09:06,486 - __main__ - INFO - get_last_n_records called with n=5 and fee_records with length 3
+2026-03-20 14:09:06,487 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:09:06,489 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:09:06,489 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:09:06,492 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 3
+2026-03-20 14:09:06,492 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:09:06,494 - __main__ - INFO - get_middle_n_records called with n=2 and fee_records with length 5
+2026-03-20 14:09:06,494 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:09:06,496 - __main__ - INFO - get_middle_n_records called with n=0 and fee_records with length 5
+2026-03-20 14:09:06,497 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:09:06,499 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:09:06,499 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:09:06,502 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 5
+2026-03-20 14:09:06,502 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:09:06,523 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=False, amount=500.0)
+2026-03-20 14:09:06,523 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=False, exempt=False, amount=200.0)
+2026-03-20 14:09:06,524 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=True, amount=300.0)
+2026-03-20 14:09:06,525 - __main__ - ERROR - File not found: non_existent_file.csv
+2026-03-20 14:09:33,192 - __main__ - INFO - Analysis result: {'is_active': True, 'payment_status': 'active', 'discount_applicable': False, 'late_payments_count': 2, 'exempt_count': 1, 'total_amount': 118, 'total_records': 3}
+2026-03-20 14:09:33,198 - __main__ - INFO - get_last_n_records called with n=2 and fee_records with length 3
+2026-03-20 14:09:33,198 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:09:33,199 - __main__ - INFO - get_last_n_records called with n=0 and fee_records with length 3
+2026-03-20 14:09:33,199 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:09:33,204 - __main__ - INFO - get_last_n_records called with n=5 and fee_records with length 3
+2026-03-20 14:09:33,205 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:09:33,206 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:09:33,206 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:09:33,208 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 3
+2026-03-20 14:09:33,208 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:09:33,211 - __main__ - INFO - get_middle_n_records called with n=2 and fee_records with length 5
+2026-03-20 14:09:33,211 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:09:33,213 - __main__ - INFO - get_middle_n_records called with n=0 and fee_records with length 5
+2026-03-20 14:09:33,213 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:09:33,215 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:09:33,215 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:09:33,216 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 5
+2026-03-20 14:09:33,216 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:09:33,232 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=False, amount=500.0)
+2026-03-20 14:09:33,233 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=False, exempt=False, amount=200.0)
+2026-03-20 14:09:33,233 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=True, amount=300.0)
+2026-03-20 14:09:33,235 - __main__ - ERROR - File not found: non_existent_file.csv
+2026-03-20 14:16:48,105 - __main__ - INFO - Analysis result: {'is_active': True, 'payment_status': 'active', 'discount_applicable': False, 'late_payments_count': 2, 'exempt_count': 1, 'total_amount': 118, 'total_records': 3}
+2026-03-20 14:16:48,108 - __main__ - INFO - get_last_n_records called with n=2 and fee_records with length 3
+2026-03-20 14:16:48,109 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:16:48,110 - __main__ - INFO - get_last_n_records called with n=0 and fee_records with length 3
+2026-03-20 14:16:48,110 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:16:48,115 - __main__ - INFO - get_last_n_records called with n=5 and fee_records with length 3
+2026-03-20 14:16:48,115 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:16:48,117 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:16:48,117 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:16:48,118 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 3
+2026-03-20 14:16:48,119 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:16:48,121 - __main__ - INFO - get_middle_n_records called with n=2 and fee_records with length 5
+2026-03-20 14:16:48,121 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:16:48,122 - __main__ - INFO - get_middle_n_records called with n=0 and fee_records with length 5
+2026-03-20 14:16:48,122 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:16:48,124 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:16:48,124 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:16:48,126 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 5
+2026-03-20 14:16:48,126 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:16:48,155 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=False, amount=500.0)
+2026-03-20 14:16:48,155 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=False, exempt=False, amount=200.0)
+2026-03-20 14:16:48,156 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=True, amount=300.0)
+2026-03-20 14:16:48,158 - __main__ - ERROR - File not found: non_existent_file.csv
+2026-03-20 14:17:19,904 - __main__ - INFO - Analysis result: {'is_active': True, 'payment_status': 'active', 'discount_applicable': False, 'late_payments_count': 2, 'exempt_count': 1, 'total_amount': 118, 'total_records': 3}
+2026-03-20 14:17:19,907 - __main__ - INFO - get_last_n_records called with n=2 and fee_records with length 3
+2026-03-20 14:17:19,907 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:17:19,908 - __main__ - INFO - get_last_n_records called with n=0 and fee_records with length 3
+2026-03-20 14:17:19,909 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:17:19,911 - __main__ - INFO - get_last_n_records called with n=5 and fee_records with length 3
+2026-03-20 14:17:19,912 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:17:19,913 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:17:19,913 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:17:19,914 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 3
+2026-03-20 14:17:19,915 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:17:19,916 - __main__ - INFO - get_middle_n_records called with n=2 and fee_records with length 5
+2026-03-20 14:17:19,917 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:17:19,919 - __main__ - INFO - get_middle_n_records called with n=0 and fee_records with length 5
+2026-03-20 14:17:19,919 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:17:19,920 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:17:19,921 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:17:19,921 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 5
+2026-03-20 14:17:19,922 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:17:19,941 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=False, amount=500.0)
+2026-03-20 14:17:19,941 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=False, exempt=False, amount=200.0)
+2026-03-20 14:17:19,941 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=True, amount=300.0)
+2026-03-20 14:17:19,943 - __main__ - ERROR - File not found: non_existent_file.csv
+2026-03-20 14:17:31,055 - __main__ - INFO - Analysis result: {'is_active': True, 'payment_status': 'active', 'discount_applicable': False, 'late_payments_count': 2, 'exempt_count': 1, 'total_amount': 118, 'total_records': 3}
+2026-03-20 14:17:31,058 - __main__ - INFO - get_last_n_records called with n=2 and fee_records with length 3
+2026-03-20 14:17:31,058 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=False, amount=10), FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:17:31,059 - __main__ - INFO - get_last_n_records called with n=0 and fee_records with length 3
+2026-03-20 14:17:31,059 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:17:31,064 - __main__ - INFO - get_last_n_records called with n=5 and fee_records with length 3
+2026-03-20 14:17:31,064 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:17:31,065 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:17:31,066 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:17:31,067 - __main__ - INFO - get_last_n_records called with n=1 and fee_records with length 3
+2026-03-20 14:17:31,067 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=0)]
+2026-03-20 14:17:31,069 - __main__ - INFO - get_middle_n_records called with n=2 and fee_records with length 5
+2026-03-20 14:17:31,069 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=False, exempt=False, amount=200), FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:17:31,070 - __main__ - INFO - get_middle_n_records called with n=0 and fee_records with length 5
+2026-03-20 14:17:31,070 - __main__ - ERROR - n must be greater than 0
+2026-03-20 14:17:31,071 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 0
+2026-03-20 14:17:31,071 - __main__ - ERROR - Requested fee records not available
+2026-03-20 14:17:31,072 - __main__ - INFO - get_middle_n_records called with n=1 and fee_records with length 5
+2026-03-20 14:17:31,073 - __main__ - INFO - Successfully returning [FeeRecord(late_payment=True, exempt=True, amount=300)]
+2026-03-20 14:17:31,090 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=False, amount=500.0)
+2026-03-20 14:17:31,091 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=False, exempt=False, amount=200.0)
+2026-03-20 14:17:31,091 - __main__ - INFO - Successfully loaded record: FeeRecord(late_payment=True, exempt=True, amount=300.0)
+2026-03-20 14:17:31,092 - __main__ - ERROR - File not found: non_existent_file.csv

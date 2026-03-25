@@ -1,0 +1,19 @@
+{
+  "savings": {
+    "id": "SAV001",
+    "balance": "5000.00",
+    "type": "savings"
+  },
+  "checking": {
+    "id": "CHK001",
+    "balance": "1000.00",
+    "type": "checking",
+    "overdraft": "500.00"
+  },
+  "low_balance": {
+    "id": "CHK002",
+    "balance": "50.00",
+    "type": "checking",
+    "overdraft": "0"
+  }
+}
